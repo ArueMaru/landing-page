@@ -59,6 +59,7 @@ li a {
   padding: 8px 30px;
   border-radius: 7px;
   margin-top: 8px;
+  font-weight: bold;
 }
 
 .hero-information {
@@ -129,4 +130,45 @@ li a {
 .name {
   align-self: flex-end;
   font-weight: bold;
+}
+
+.container-white-space {
+  height: 500px;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.call-to-action {
+  background-color: #3882f6;
+  height: 180px;
+  width: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+
+}
+
+.call-to-action h4 {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.call-to-action p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.call-button {
+  background-color: #3882f6;
+  color: #e5e7eb;
+  border: 2px solid #f9faf8;
+  padding: 6px 24px;
+  border-radius: 7px;
+  margin-top: 8px;
+  font-weight: bold;
+  margin-left: 150px;
 }
