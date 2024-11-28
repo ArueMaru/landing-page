@@ -88,7 +88,6 @@ li a {
   display: flex;
   justify-content: center;
   gap: 50px;
-  border: 1px solid red;
   width: 100vw;
 
 }
@@ -115,7 +114,7 @@ li a {
   display: flex;
   flex-direction: column;
   width: 800px;
-  border: 1px solid red;
+
   
 }
 
@@ -171,4 +170,17 @@ li a {
   margin-top: 8px;
   font-weight: bold;
   margin-left: 150px;
+}
+
+footer {
+  background-color: #1f2937;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer p {
+  font-size: 18px;
+  color: #e5e7eb;
 }
